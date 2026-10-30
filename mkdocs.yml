@@ -1,0 +1,15 @@
+site_name: Результаты эксперимента
+site_url: https://st-st3pa.github.io/ssg-research/
+theme:
+  name: material
+  language: ru
+plugins:
+  - search:
+      lang: ru
+extra:
+  version:
+    provider: mike
+    default: latest
+nav:
+  - Главная: index.md
+  - Результаты: results.md
